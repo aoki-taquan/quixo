@@ -1,5 +1,4 @@
-use core::borrow;
-use std::{fmt, usize};
+use std::usize;
 
 // ゲームの状態を表す構造体
 struct GameState {
@@ -137,8 +136,8 @@ struct Position {
 enum Direction {
     Up,
     Down,
-    Left,
     Right,
+    Left,
 }
 
 // ゲームのプレイ
